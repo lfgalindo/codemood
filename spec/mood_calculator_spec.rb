@@ -1,0 +1,3 @@
+describe MoodCalculator do 
+  
+end
