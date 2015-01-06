@@ -45,6 +45,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem "octokit"
-gem "lastfm"
+gem "octokit" # access github API data
+gem "lastfm" # access lastfm API data
+gem "rails_config" # setup my own global config
+
 gem 'rspec-rails', group: [:development, :test]

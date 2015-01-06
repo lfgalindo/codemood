@@ -26,8 +26,6 @@ end
 
 # Using last.fm to get users music timeline - Purpose is to get Music Name/ Artist and its play timestamp
 
-api_key = "139aaea3d50f2084c2a71252d85e716e"
-api_secret = "b5f4e4d2249c7aa53bdcd4b1589a8910"
 lastfm = Lastfm.new(api_key, api_secret)
 token = lastfm.auth.get_token
 # open 'http://www.last.fm/api/auth/?api_key=xxxxxxxxxxx&token=xxxxxxxx' and grant the application
