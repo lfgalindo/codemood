@@ -6,6 +6,10 @@
 development:
   adapter: postgresql
   database: codemood_dev
+  host: localhost
+  encoding: utf8
+  user: vidya
+  password: 123456
   pool: 5
   timeout: 5000
 
