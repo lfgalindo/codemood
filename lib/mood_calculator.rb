@@ -45,6 +45,8 @@ class MoodCalculator
     if not @grouping.key? track[:music_id]
       @grouping[track[:music_id]] = {
         music_id: track[:music_id],
+        name: track[:name], 
+        artist: track[:artist],
         count: 0,
       }
     end

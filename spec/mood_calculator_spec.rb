@@ -12,15 +12,17 @@ describe MoodCalculator do
   end
 
   def track id, stamp, name = "Dummy Song / Dummy"
-    {music_id:id, timestamp:stamp}
+    { music_id:id, timestamp:stamp,
+      name: "m#{id}", artist:"a#{id}"}
   end
 
   def commit id, stamp
-    {commit_id:id, timestamp:stamp}
+    { commit_id:id, timestamp:stamp}
   end
 
   def count music_id, count
-    {music_id:music_id, count:count}
+    { music_id:music_id, count:count, 
+      name: "m#{music_id}", artist:"a#{music_id}"}
   end
 
   it "empty data results in nothing" do

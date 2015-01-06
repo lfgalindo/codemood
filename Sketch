@@ -33,3 +33,17 @@ token = lastfm.auth.get_token
 # open 'http://www.last.fm/api/auth/?api_key=xxxxxxxxxxx&token=xxxxxxxx' and grant the application
 
 lastfm.user.get_recent_tracks 'nukdf'
+
+
+
+
+
+http://www.codecademy.com/pt-BR/tracks/oauth
+https://github.com/youpy/ruby-lastfm
+http://www.lastfm.com.br/api/account/139aaea3d50f2084c2a71252d85e716e?pending=0&new=1
+http://www.lastfm.com.br/api
+http://www.lastfm.com.br/api/show/user.getRecentTracks
+https://github.com/octokit/octokit.rb
+https://developer.github.com/v3/#pagination
+https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository
+https://github.com/settings/applications#personal-access-tokens
