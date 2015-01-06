@@ -36,7 +36,7 @@ class TrackFetcher
   end
 
   def has_tracks
-    not @tracks.empty?
+    not @tracks.size > 1 # ignores the "nowplaying"
   end
 
   def process_tracks
